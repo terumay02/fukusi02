@@ -1,4 +1,4 @@
-/* CSSのリセット（消さないでください） */
+/* CSS/* CSSのリセット（消さないでください） */
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -33,7 +33,7 @@ a {
 
 .header-top{
   height:65px;
-  background-color:grey;
+  background-image:url(http://www010.upp.so-net.ne.jp/yamanami/image/common/wrap_bg.jpg);
   padding:20px 20px;
 
 
@@ -53,9 +53,17 @@ a {
 
 .header-titles{
   height:65px;
-  background-color:red;
+  background-color:blue;
 
 }
+
+/*
+.header-titles li{
+  display:list-item;
+  text-align: -webkit-match-parent;
+  clear:left;
+}
+ */
 
 .header-title{
   width:19%;
@@ -65,10 +73,16 @@ a {
 }
 
 .top-title{
-  width:124px;
+  width:210px;
   height:;
   display:block;
   padding:5px;
+}
+
+
+.top-titles{
+  float:left;
+  border-right:1px solid grey;
 }
 
 .top-wrapper img{
@@ -89,12 +103,10 @@ a {
 
 footer{
   height:100px;
-  background-color:grey;
+
+  background-image:url(http://www010.upp.so-net.ne.jp/yamanami/image/common/footerin_bg.jpg);
 }
 
-.top-titles{
-  float:left;
-}
 
 .top-picture{
   position:relative;
@@ -105,12 +117,12 @@ footer{
   top:10px;
   left:250px;
   width:950px;
-  height:350px;
+  height:380px;
 }
 
 .table-top{
   color:white;
-  margin-left:80px;
+  margin-left:30px;
   border: 1.5px solid blue;
   width:700px;
 }
